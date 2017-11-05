@@ -16,6 +16,36 @@
     width: 70%;
   }
 
+  &__title {
+    font-family: $base-font;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    color: $white;
+  }
+
+  &__subtitle {
+    font-family: $base-font;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align: left;
+    color: $white;
+    margin: 15px 0 40px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__link-apple {
+    margin-left: 50px;
+  }
+
   &__advantages {
     align-items: flex-end;
     display: flex;
