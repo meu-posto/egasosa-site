@@ -1,0 +1,59 @@
+.together {
+  background: image-url('background-down.png') no-repeat center top;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  min-height: 670px;
+
+  @include mobile(phone-only) {
+    min-height: auto;
+  }
+
+  &__cellphone {
+    margin: o auto;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  &__save {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+
+    @include mobile(phone-only) {
+      display: none;
+    }
+  }
+
+  &__know {
+    font-family: $base-font;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: left;
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  &__save-background {
+    background: $accent-color;
+  }
+
+  &__save-title {
+    height: 38px;
+    font-family: $base-font;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: $white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 12px 24px;
+  }
+}
