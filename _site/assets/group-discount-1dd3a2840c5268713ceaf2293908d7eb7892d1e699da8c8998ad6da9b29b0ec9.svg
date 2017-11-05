@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="142" viewBox="0 0 142 142">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="70" cy="70" r="70" stroke="#069" stroke-width="2"/>
+        <circle cx="70" cy="70" r="60" fill="#069"/>
+        <path stroke="#FFF" stroke-width="2" d="M49.72 55.732c-2.59 0-4.68-2.09-4.68-4.68s2.09-4.68 4.68-4.68 4.68 2.09 4.68 4.68-2.09 4.68-4.68 4.68zm49.641 14.29L71.28 41.94a6.2 6.2 0 0 0-4.399-1.809h-21.84c-3.433 0-6.241 2.808-6.241 6.24v21.841c0 1.716.686 3.276 1.84 4.43l28.081 28.082a6.205 6.205 0 0 0 4.4 1.81 6.104 6.104 0 0 0 4.4-1.841L99.36 78.85a6.101 6.101 0 0 0 1.841-4.399 6.3 6.3 0 0 0-1.84-4.43z"/>
+        <path stroke="#FFF" stroke-dasharray="4.32" d="M71.2 85.733c-7.287 0-13.2-5.913-13.2-13.2 0-7.286 5.913-13.2 13.2-13.2 7.286 0 13.2 5.914 13.2 13.2 0 7.287-5.914 13.2-13.2 13.2z"/>
+        <text fill="#FFF" font-family="SFUIText-Bold, SF UI Text" font-size="20" font-weight="bold" transform="translate(30 30)">
+            <tspan x="33.294" y="49.533">%</tspan>
+        </text>
+        <path d="M30 30h80v80H30z"/>
+    </g>
+</svg>
