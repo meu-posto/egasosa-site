@@ -7,6 +7,11 @@
   align-content: center;
   justify-content: center;
 
+  @include mobile(phone-only) {
+    background: image-url('background.png') no-repeat top center;
+    background-size: auto;
+  }
+
   &__logo-buttons {
     align-items: flex-start;
     display: flex;
@@ -14,6 +19,11 @@
     justify-content: center;
     height: 75%;
     width: 70%;
+
+    @include mobile(phone-only) {
+      width: 90%;
+      height: auto;
+    }
   }
 
   &__title {
@@ -42,10 +52,21 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+
+    @include mobile(phone-only) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
   }
 
   &__link-apple {
     margin-left: 50px;
+    
+    @include mobile(phone-only) {
+      margin: 20px 0 0;
+    }
   }
 
   &__advantages {
@@ -56,6 +77,10 @@
     position: absolute;
     bottom: 95px;
     right: 20px;
+
+    @include mobile(phone-only) {
+      display: none;
+    }
   }
 
   &__know {

@@ -10,4 +10,25 @@ $base-font-size: 14px;
 $black: #000;
 $white: #fff;
 $primary-color: #003344;
-$accent-color: #00ccff
+$accent-color: #00ccff;
+
+//Mixins
+@mixin mobile($size) {
+  @if $size == phone-only {
+    @media (max-width: 599px) { @content; }
+  } @else if $size == tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+  } @else if $size == tablet-landscape-up {
+    @media (min-width: 900px) { @content; }
+  } @else if $size == desktop-up {
+    @media (min-width: 1200px) { @content; }
+  } @else if $size == big-desktop-up {
+    @media (min-width: 1800px) { @content; }
+  }
+}
+
+@mixin media-resize($min, $max) {
+  @media (max-width: $max) and (min-width: $min) {
+    @content
+  }
+}
