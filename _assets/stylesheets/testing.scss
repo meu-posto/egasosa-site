@@ -10,6 +10,9 @@
 
   @include mobile(phone-only) {
     min-height: auto;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 100%;
   }
 
   &__infos {
@@ -20,6 +23,10 @@
     justify-content: flex-start;
     max-width: 480px;
     text-align: center;
+
+    @include mobile(phone-only) {
+      padding: 0 10px;
+    }
   }
 
   &__title {
@@ -38,5 +45,15 @@
     line-height: 1.29;
     letter-spacing: 3px;
     text-align: left;
+  }
+
+  &__map {
+    max-width: 514px;
+    width: 100%;
+
+    @include mobile(phone-only) {
+      padding: 0 10px;
+      max-width: 300px;
+    }
   }
 }
