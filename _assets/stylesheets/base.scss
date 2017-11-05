@@ -1,8 +1,10 @@
 // Typography
-$base-font: 'Source Sans Pro', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Ubuntu|Varela+Round:400,700');
+$base-font: 'Droid Sans', sans-serif;
+$base-title: 'Ubuntu', sans-serif;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 14px;
 
 // Colors
 $black: #000;
