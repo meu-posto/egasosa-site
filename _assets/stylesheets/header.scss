@@ -1,5 +1,5 @@
 .header {
-  background: image-url('background.png') no-repeat center bottom;
+  background: image-url('background.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -23,6 +23,7 @@
     letter-spacing: 2px;
     text-align: left;
     color: $white;
+    text-transform: uppercase;
   }
 
   &__subtitle {
@@ -34,6 +35,7 @@
     text-align: left;
     color: $white;
     margin: 15px 0 40px;
+    text-transform: uppercase;
   }
 
   &__buttons {
@@ -52,7 +54,34 @@
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
-    bottom: 20px;
+    bottom: 95px;
     right: 20px;
+  }
+
+  &__know {
+    font-family: $base-font;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: 2px;
+    text-align: right;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+
+  &__advantages-background {
+    background: $accent-color;
+  }
+
+  &__advantages-title {
+    height: 38px;
+    font-family: $base-font;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: $white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 12px 24px;
   }
 }
