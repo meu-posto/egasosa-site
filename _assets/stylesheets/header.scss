@@ -1,14 +1,15 @@
 .header {
-  background: image-url('background.png') no-repeat center center;
+  background: image-url('background.png') no-repeat center bottom;
   background-size: cover;
   height: 100vh;
   position: relative;
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-bottom: 40px;
 
   @include mobile(phone-only) {
-    background: image-url('background.png') no-repeat top center;
+    background: image-url('background.png') no-repeat 55% 35%;
     background-size: auto;
   }
 
@@ -108,5 +109,14 @@
     text-transform: uppercase;
     margin: 0;
     padding: 12px 24px;
+  }
+
+  &__mouse {
+    position: absolute;
+    bottom: 50px;
+
+    @include mobile(phone-only) {
+      display: none;
+    }
   }
 }
