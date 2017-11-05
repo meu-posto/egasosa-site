@@ -1,3 +1,28 @@
 .header {
-  background: $black;
+  background: image-url('background.png') no-repeat center bottom;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  &__logo-buttons {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+    width: 70%;
+  }
+
+  &__advantages {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
 }
