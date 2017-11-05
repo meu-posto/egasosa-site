@@ -6,3 +6,29 @@ body_id: "home"
 ---
 
 {% include header.html %}
+
+<section class="advantages">
+  <div class="advantages__container">
+    <div class="advantages__list">
+      <div class="advantages__item">
+        <img src="{% asset_path 'group-discount.svg' %}" alt="Descontos exclusivos" />
+        <h3 class="advantages__title">Descontos<br />exclusivos</h3>
+        <div class="advantages__hr"></div>
+        <p class="advantages__info">Selecione um posto próximo e escolha um combustível.</p>
+      </div>
+      <div class="advantages__item">
+        <img src="{% asset_path 'group-couch.svg' %}" alt="COMODIDADE E PRATICIDADE" />
+        <h3 class="advantages__title">COMODIDADE E<br />PRATICIDADE</h3>
+        <div class="advantages__hr"></div>
+        <p class="advantages__info">Reserve pelo aplicativo.</p>
+      </div>
+      <div class="advantages__item">
+        <img src="{% asset_path 'group-wallet.svg' %}" alt="PAGAMENTO SEGURO" />
+        <h3 class="advantages__title">PAGAMENTO<br />SEGURO</h3>
+        <div class="advantages__hr"></div>
+        <p class="advantages__info">Abasteça e pague no caixa se identificando via QRCode pelo aplicativo.</p>
+      </div>
+    </div>
+    <h4 class="advantages__plus">e muito mais!</h4>
+  </div>
+</section>
