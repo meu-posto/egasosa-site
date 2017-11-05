@@ -17,6 +17,11 @@
     letter-spacing: 2.1px;
     text-align: left;
     color: $primary-color;
+
+    @include mobile(phone-only) {
+      margin-bottom: 40px;
+      text-align: center
+    }
   }
 
   &__buttons {
