@@ -16,7 +16,7 @@
     }
 
     @include mobile(tablet-landscape-up) {
-      display: initial;
+      display: block;
     }
   }
 
