@@ -11,6 +11,10 @@
     padding: 50px 20px;
   }
 
+  @include mobile(tablet-portrait-up) {
+    padding: 50px 20px;
+  }
+
   &__title {
     font-family: $base-font;
     font-size: 32px;

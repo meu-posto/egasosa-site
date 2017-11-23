@@ -9,6 +9,10 @@
     min-height: auto;
   }
 
+  @include mobile(tablet-portrait-up) {
+    min-height: auto;
+  }
+
   &__cellphone {
     margin: o auto;
     width: 100%;
@@ -39,6 +43,11 @@
     text-align: left;
     color: $white;
     text-transform: uppercase;
+
+    @include mobile(tablet-portrait-up) {
+      font-size: 20px;
+      margin-top: 0;
+    }
   }
 
   &__save-background {
@@ -55,5 +64,10 @@
     text-transform: uppercase;
     margin: 0;
     padding: 12px 24px;
+
+    @include mobile(tablet-portrait-up) {
+      font-size: 25px;
+      height: 29px;
+    }
   }
 }

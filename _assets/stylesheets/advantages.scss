@@ -9,6 +9,11 @@
       display: table-cell;
       padding: 0 20px;
     }
+
+    @include mobile(tablet-portrait-up) {
+      display: table-cell;
+      padding: 0 20px;
+    }
   }
 
   &__list {

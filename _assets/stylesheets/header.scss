@@ -45,6 +45,10 @@
       width: 90%;
       height: auto;
     }
+
+    @include mobile(tablet-portrait-up) {
+      margin-left: 10%;
+    }
   }
 
   &__title {
