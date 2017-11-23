@@ -9,8 +9,19 @@
   margin-bottom: 40px;
 
   @include mobile(phone-only) {
-    background: image-url('background.png') no-repeat 55% 35%;
+    background: image-url('background.png') no-repeat 63% 11%;
     background-size: auto;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0,0 , 0.3);
+      z-index: 1;
+    }
   }
 
   &__logo-buttons {
@@ -20,6 +31,8 @@
     justify-content: center;
     height: 75%;
     width: 70%;
+    position: relative;
+    z-index: 4;
 
     @include mobile(phone-only) {
       width: 90%;
@@ -82,6 +95,8 @@
     position: absolute;
     bottom: 95px;
     right: 20px;
+    position: relative;
+    z-index: 4;
 
     @include mobile(phone-only) {
       display: none;
@@ -118,6 +133,7 @@
   &__mouse {
     position: absolute;
     bottom: 50px;
+    z-index: 4;
 
     @include mobile(phone-only) {
       display: none;
