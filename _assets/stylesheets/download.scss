@@ -29,6 +29,10 @@
     align-items: center;
     justify-content: space-between;
 
+    img {
+      width: 180px;
+    }
+
     @include mobile(phone-only) {
       flex-direction: column;
       align-items: center;
