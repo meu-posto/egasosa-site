@@ -25,7 +25,8 @@
     text-align: center;
 
     @include mobile(phone-only) {
-      padding: 0 10px;
+      padding: 0 20px;
+      display: table-cell;
     }
   }
 

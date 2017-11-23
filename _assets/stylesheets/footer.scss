@@ -13,7 +13,9 @@
     justify-content: space-between;
 
     @include mobile(phone-only) {
-      flex-direction: column
+      flex-direction: column;
+      padding: 0 20px;
+      display: table-cell;
     }
   }
 
