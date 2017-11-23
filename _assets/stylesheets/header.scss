@@ -24,6 +24,13 @@
     }
   }
 
+  &__logo {
+
+    @include mobile(phone-only) {
+      width: 150px;
+    }
+  }
+
   &__logo-buttons {
     align-items: flex-start;
     display: flex;
@@ -48,6 +55,10 @@
     text-align: left;
     color: $white;
     text-transform: uppercase;
+
+    @include mobile(phone-only) {
+      font-size: 25px;
+    }
   }
 
   &__subtitle {
