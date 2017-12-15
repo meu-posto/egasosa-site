@@ -17,8 +17,8 @@ title: Egasosa, a melhor forma de economizar na hora de abastecer
 email: contato@egasosa.com
 description: >- # this means to ignore newlines until "baseurl:"
   Egasosa, a melhor forma de economizar na hora de abastecer
-baseurl: "/egasosa-website" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.egasosa.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: egasosa
 github_username:  egasosa
 
