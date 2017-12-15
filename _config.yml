@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Egasosa, a melhor forma de economizar na hora de abastecer
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.egasosa.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: egasosa
+twitter_username: egasosaapp
 github_username:  egasosa
 
 # Build settings
@@ -56,8 +56,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - config.ru
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - circle.yml

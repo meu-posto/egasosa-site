@@ -1,0 +1,14 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - heroku pg:backups capture --app egasosa-site
+      - git push git@heroku.com:egasosa-site.git $CIRCLE_SHA1:refs/heads/master
+
+machine:
+  ruby:
+    version: 2.4.2
+
+dependencies:
+  pre:
+    - gem install bundler
