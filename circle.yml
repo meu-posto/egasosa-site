@@ -11,3 +11,7 @@ machine:
 dependencies:
   pre:
     - gem install bundler
+
+test:
+  override:
+    - echo "done"
