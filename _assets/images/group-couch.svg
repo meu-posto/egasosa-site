@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="142" height="142" viewBox="0 0 142 142">
-    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-        <circle cx="70" cy="70" r="70" stroke="#069" stroke-width="2"/>
-        <circle cx="70" cy="70" r="60" fill="#069"/>
-        <path fill="#FFF" d="M71 54h1v-6h-1zM71 63h1v-6h-1zM71 72h1v-6h-1z"/>
-        <path stroke="#FFF" d="M36 70a2 2 0 1 0-.002-4.002A2 2 0 0 0 36 70zM106 70a2 2 0 1 0-.002-4.002A2 2 0 0 0 106 70z"/>
-        <path stroke="#FFF" stroke-width="2" d="M97.799 64.288a4.98 4.98 0 0 0-.8 2.712v15H45V67c0-1-.292-1.931-.798-2.712A9 9 0 1 0 35 76.945V85c0 .179.01.354.028.528A4 4 0 0 0 39 90h64a4 4 0 0 0 3.973-4.472c.018-.174.027-.35.027-.528v-8.055a9 9 0 1 0-9.201-12.657z"/>
-        <rect width="4" height="4" x="44" y="90" stroke="#FFF" stroke-width="2" rx="2"/>
-        <rect width="4" height="4" x="94" y="90" stroke="#FFF" stroke-width="2" rx="2"/>
-        <path stroke="#FFF" stroke-width="2" d="M44.201 64.288C44.707 65.068 45 66 45 67v15h52V67c0-1 .294-1.931.799-2.712a9.002 9.002 0 0 1 6.201-5.04V54a8 8 0 0 0-8-8H46a8 8 0 0 0-8 8v5.248a9.002 9.002 0 0 1 6.201 5.04z"/>
-        <path stroke="#FFF" d="M45 82h52v-6.49C91.818 73.413 82.119 72 71 72c-11.12 0-20.817 1.413-26 3.51V82z"/>
-        <path d="M20 20h100v100H20z"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="142" viewBox="0 0 142 142"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="70" cy="70" r="70" stroke="#069" stroke-width="2"/><circle cx="70" cy="70" r="60" fill="#069"/><path fill="#FFF" d="M71 54h1v-6h-1zM71 63h1v-6h-1zM71 72h1v-6h-1z"/><path stroke="#FFF" d="M36 70a2 2 0 1 0-.002-4.002A2 2 0 0 0 36 70zM106 70a2 2 0 1 0-.002-4.002A2 2 0 0 0 106 70z"/><path stroke="#FFF" stroke-width="2" d="M97.799 64.288a4.98 4.98 0 0 0-.8 2.712v15H45V67c0-1-.292-1.931-.798-2.712A9 9 0 1 0 35 76.945V85c0 .179.01.354.028.528A4 4 0 0 0 39 90h64a4 4 0 0 0 3.973-4.472c.018-.174.027-.35.027-.528v-8.055a9 9 0 1 0-9.201-12.657z"/><rect width="4" height="4" x="44" y="90" stroke="#FFF" stroke-width="2" rx="2"/><rect width="4" height="4" x="94" y="90" stroke="#FFF" stroke-width="2" rx="2"/><path stroke="#FFF" stroke-width="2" d="M44.201 64.288C44.707 65.068 45 66 45 67v15h52V67c0-1 .294-1.931.799-2.712a9.002 9.002 0 0 1 6.201-5.04V54a8 8 0 0 0-8-8H46a8 8 0 0 0-8 8v5.248a9.002 9.002 0 0 1 6.201 5.04z"/><path stroke="#FFF" d="M45 82h52v-6.49C91.818 73.413 82.119 72 71 72c-11.12 0-20.817 1.413-26 3.51V82z"/><path d="M20 20h100v100H20z"/></g></svg>
