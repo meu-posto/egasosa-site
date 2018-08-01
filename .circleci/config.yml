@@ -1,0 +1,24 @@
+version: 2
+
+workflows:
+  version: 2
+  check_and_deploy:
+    jobs:
+      - deploy_production:
+          filters:
+            branches:
+              only:
+                - master
+
+jobs:
+  deploy_production:
+    docker:
+      - image: buildpack-deps:trusty
+    steps:
+      - checkout
+      - deploy:
+          command: bash .circleci/setup-heroku-production.sh
+      - deploy:
+          command: git push heroku master
+      - deploy:
+          command: heroku restart --app egasosa-site
