@@ -22,6 +22,8 @@ url: "https://www.egasosa.com.br" # the base hostname & protocol for your site, 
 twitter_username: egasosaapp
 github_username:  egasosa
 keywords: economia, combustível, gasolina, etanol, diesel
+url_app_apple: "https://go.egasosa.com/2M1jwND"
+url_app_android: "https://go.egasosa.com/android-egasosa"
 
 # Build settings
 markdown: kramdown
