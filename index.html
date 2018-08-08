@@ -1,80 +1,433 @@
----
-layout: egasosa
-title: egasosa - Combustível com desconto
-description: ''
-body_id: "home"
-keywords: economia, combustível, gasolina, etanol, diesel
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>egasosa - Abasteça com descontos incríveis</title>
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
 
-{% include header.html %}
+<div class="preloader"><div class="spinner"></div></div><!-- /.preloader -->
 
-<section class="advantages">
-  <div class="advantages__container">
-    <div class="advantages__list">
-      <div class="advantages__item">
-        <img src="{% asset_path 'group-discount.svg' %}" alt="Descontos exclusivos" />
-        <h3 class="advantages__title">Descontos<br />exclusivos</h3>
-        <div class="advantages__hr"></div>
-        <p class="advantages__info">Selecione um posto próximo e escolha um combustível.</p>
-      </div>
-      <div class="advantages__item">
-        <img src="{% asset_path 'group-couch.svg' %}" alt="COMODIDADE E PRATICIDADE" />
-        <h3 class="advantages__title">COMODIDADE E<br />PRATICIDADE</h3>
-        <div class="advantages__hr"></div>
-        <p class="advantages__info">Reserve pelo aplicativo.</p>
-      </div>
-      <div class="advantages__item">
-        <img src="{% asset_path 'group-wallet.svg' %}" alt="PAGAMENTO SEGURO" />
-        <h3 class="advantages__title">PAGAMENTO<br />SEGURO</h3>
-        <div class="advantages__hr"></div>
-        <p class="advantages__info">Abasteça e pague no caixa se identificando via QR Code pelo aplicativo.</p>
-      </div>
-    </div>
-    <h4 class="advantages__plus">e muito mais!</h4>
-  </div>
-</section>
 
-<section class="together">
-  <div class="together__save">
-    <p class="together__know">Bora<br />economizar</p>
-    <div class="together__save-background">
-      <h2 class="together__save-title">JUNTOS ?</h2>
-    </div>
-  </div>
 
-  <img src="{% asset_path 'phone-light.png' %}" alt="" class="together__cellphone" />
-</section>
+<header class="header home-page-one">
+    <nav class="navbar navbar-default header-navigation stricky">
+        <div class="container clearfix">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Awesome Image" class="default-logo" />
+                    <img src="img/logo-2.png" alt="Awesome Image" class="stick-logo" />
+                </a>
+            </div>
 
-<section class="download">
-  <p class="download__title">BAIXE AGORA MESMO. É GRÁTIS!</p>
-  <div class="download__buttons">
-      <a href="https://go.egasosa.com/2jWhnT4" class="download__link-google">
-        <img src="{% asset_path 'google-play.svg' %}" alt="Download google play" class="download__button-android">
-      </a>
-      <a href="https://go.egasosa.com/2jTFrGs" class="download__link-apple">
-          <img src="{% asset_path 'apple-store.svg' %}" alt="Download apple store" class="download__button-apple">
-      </a>
-    </div>
-</section>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse main-navigation mainmenu one-page-scroll-menu" id="main-nav-bar">
 
-<footer class="footer">
-  <div class="footer__container">
-    <div class="footer__copyright">
-      <img src="{% asset_path 'logo-egasosa.svg' %}" alt="egasosa" class="footer__logo">
-      <p class="footer__text">Copyright © 2018 egasosa. Todos os direitos reservados.</p>
-    </div>
-    <div class="footer__social">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="mailto:suporte@egasosa.com.br" class="footer__email">Email</a>
-        </li>
-        <li class="footer__item">
-          <a href="https://twitter.com/egasosaapp" class="footer__twitter">twitter</a>
-        </li>
-        <li class="footer__item">
-          <a href="https://www.facebook.com/egasosa/" class="footer__facebook">Facebook</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</footer>
+                <ul class="nav navbar-nav navigation-box">
+                    <li class="scrollToLink current"> <a href="#banner">Início</a> </li>
+                    <li class="scrollToLink"> <a href="#features">Benefícios</a> </li>
+                    <li class="scrollToLink"> <a href="#how-it-works">Como funciona</a> </li>
+                    <li class="scrollToLink"> <a href="#footer">Baixe já</a> </li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+</header><!-- /.header -->
+
+<section class="banner-static" id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="banner-content">
+					<h3 class="featured-word">É bom pra<br /> <span>todo mundo!</span><br /></h3>
+					<p>Abasteça com descontos incríveis.<br /> É rápido, fácil de usar e você economiza de verdade!</p>
+					<a href="#" class="download-btn">
+						<i class="fab fa-apple"></i>
+						<span class="inner"> <span class="avail">Disponível na</span> <span class="store-name">App Store</span></span>
+					</a>
+					<a href="#" class="download-btn">
+						<i class="fab fa-google-play"></i>
+						<span class="inner"><span class="avail">Disponível no</span> <span class="store-name">Google play</span></span>
+					</a>
+				</div><!-- /.banner-content -->
+			</div><!-- /.col-md-6 -->
+			<div class="col-md-6">
+				<div class="banner-moc-box clearfix">
+					<img src="img/slider-moc-2.png" alt="Awesome Image" class="pull-right" />
+				</div><!-- /.banner-moc-box -->
+			</div><!-- /.col-md-6 -->
+		</div><!-- /.row -->
+        <div class="fun-fact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="single-fun-fact">
+					<p><span class="counter">93000</span><br/>  Downloads</p>
+				</div><!-- /.single-fun-fact -->
+			</div><!-- /.col-md-3 -->
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="single-fun-fact">
+					<p><span class="counter">500.000,00</span><br/>  Reais economizados</p>
+				</div><!-- /.single-fun-fact -->
+			</div><!-- /.col-md-3 -->
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="single-fun-fact">
+					<p><span class="counter">1980</span><br/>Avaliações 5 Estrelas</p>
+				</div><!-- /.single-fun-fact -->
+			</div><!-- /.col-md-3 -->
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="single-fun-fact">
+					<p><span class="counter">4.8</span><br/>Nota na App Store</p>
+				</div><!-- /.single-fun-fact -->
+			</div><!-- /.col-md-3 -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+	<div class="separator"></div><!-- /.separator -->
+</div><!-- /.fun-fact -->
+	</div><!-- /.container -->
+</section><!-- /.banner-static -->
+
+<section class="app-features" id="features">
+	<div class="container">
+		<div class="sec-title text-center">
+			<h2>Feito pra gente</h2>
+			<p>O egasosa transforma o interesse coletivo em economizar em uma poderosa comunidade! </br>Qualquer pessoa pode reduzir consideravelmente seus gastos em combustíveis, através de descontos surpreendentes.</p>
+		</div><!-- /.sec-title -->
+		<div class="app-features-carousel owl-theme owl-carousel">
+			<div class="item">
+				<div class="single-app-features text-center">
+					<i class="material-icons md-48">weekend</i>
+					<h3>Comodidade é tudo</h3>
+					<p>Você pode reservar quantos litros desejar, onde e quando quiser. </p>
+					<div class="line"></div><!-- /.line -->
+				</div><!-- /.single-app-features -->
+			</div><!-- /.item -->
+			<div class="item">
+				<div class="single-app-features text-center">
+					<i class="material-icons md-48">security</i>
+					<h3>Totalmente seguro</h3>
+					<p>O pagamento é feito no posto escolhido,<br /> direto no caixa.</p>
+					<div class="line"></div><!-- /.line -->
+				</div><!-- /.single-app-features -->
+			</div><!-- /.item -->
+			<div class="item">
+				<div class="single-app-features text-center">
+					<i class="material-icons md-48">touch_app</i>
+					<h3>É fácil de usar</h3>
+					<p>Pensamos incansavelmente em melhorar a sua experiência ao abatecer.</p>
+					<div class="line"></div><!-- /.line -->
+				</div><!-- /.single-app-features -->
+			</div><!-- /.item -->
+			<div class="item">
+				<div class="single-app-features text-center">
+					<i class="material-icons md-48">monetization_on</i>
+					<h3>Economia garantida</h3>
+					<p>Nossos parceiros oferecem no mínimo 5 centavos de desconto para cada litro.</p>
+					<div class="line"></div><!-- /.line -->
+				</div><!-- /.single-app-features -->
+			</div><!-- /.item -->
+			<div class="item">
+				<div class="single-app-features text-center">
+					<i class="material-icons md-48">people</i>
+					<h3>Todos por um</h3>
+					<p>Quanto mais pessoas usam o egasosa, mais descontos serão oferecidos pelos postos parceiros.</p>
+					<div class="line"></div><!-- /.line -->
+				</div><!-- /.single-app-features -->
+			</div><!-- /.item -->
+			</div><!-- /.item -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</section><!-- /.app-features -->
+
+<section class="how-app-work-section" id="how-it-works">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-6 how-app-work-slider-content">
+				<img src="img/circle.png" class="circled-img" alt="Awesome Image"/>
+				<div class="how-app-work-slider-wrapper">
+					<div class="how-app-work-screen-mobile-image"></div>
+					<!--Slider-->
+					<ul class="slider">
+			            <li class="slide-item">
+			            	<img src="img/how-we-work-slide-1.png" alt="Awesome Image"/>
+			            </li>
+			            <li class="slide-item">
+			            	<img src="img/how-we-work-slide-2.png" alt="Awesome Image"/>
+			            </li>
+			            <li class="slide-item">
+			            	<img src="img/how-we-work-slide-3.png" alt="Awesome Image"/>
+			            </li>
+                        <li class="slide-item">
+			            	<img src="img/how-we-work-slide-4.png" alt="Awesome Image"/>
+			            </li>
+			        </ul>
+				</div><!-- /.how-app-work-slider-wrapper -->
+
+			</div><!-- /.col-md-6 -->
+			<div class="col-md-6">
+				<div class="how-app-work-content-wrap">
+					<div class="title">
+						<h3>É muito fácil de usar:</h3>
+					</div><!-- /.title -->
+					<div class="how-app-work-content" id="how-app-work-slider-pager">
+						<a href="#" class="pager-item active" data-slide-index="0"><div class="single-how-app-work">
+							<div class="icon-box">
+								<div class="inner">
+									<i class="material-icons md-48">local_gas_station</i>
+								</div><!-- /.inner -->
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<h4>Perto de você</h4>
+								<p>Encontre um posto parceiro de acordo<br/> com a localização desejada.</p>
+							</div><!-- /.text-box -->
+						</div></a><!-- /.single-how-app-work -->
+						<a href="#" class="pager-item" data-slide-index="1"><div class="single-how-app-work">
+							<div class="icon-box">
+								<div class="inner">
+									<i class="material-icons md-48">new_releases</i>
+								</div><!-- /.inner -->
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<h4>Promoções</h4>
+								<p>Escolha o combustível e o desconto que mais lhe agrada.</p>
+							</div><!-- /.text-box -->
+						</div></a><!-- /.single-how-app-work -->
+						<a href="#" class="pager-item" data-slide-index="2"><div class="single-how-app-work">
+							<div class="icon-box">
+								<div class="inner">
+									<i class="material-icons md-48">opacity</i>
+								</div><!-- /.inner -->
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<h4>Reserva</h4>
+								<p>Determine a quantidade de litros e acompanhe sua economia.</p>
+							</div><!-- /.text-box -->
+						</div></a><!-- /.single-how-app-work -->
+                        <a href="#" class="pager-item" data-slide-index="3"><div class="single-how-app-work">
+							<div class="icon-box">
+								<div class="inner">
+									<i class="material-icons md-48">drive_eta</i>
+								</div><!-- /.inner -->
+							</div><!-- /.icon-box -->
+							<div class="text-box">
+								<h4>Pronto!</h4>
+								<p>Vá ao posto, realize o pagamento e abasteça!</p>
+							</div><!-- /.text-box -->
+						</div></a><!-- /.single-how-app-work -->
+					</div><!-- /.how-app-work-content -->
+					<a href="#" class="download-btn">
+						<i class="fab fa-apple"></i>
+						<span class="inner"> <span class="avail">Disponível na</span> <span class="store-name">App Store</span></span>
+					</a>
+					<a href="#" class="download-btn">
+						<i class="fab fa-google-play"></i>
+						<span class="inner"><span class="avail">Disponível no</span> <span class="store-name">Google play</span></span>
+					</a>
+				</div><!-- /.how-app-work-content-wrap -->
+			</div><!-- /.col-md-6 -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</section><!-- /.how-app-work-section -->
+
+<div class="separator no-border mt135 full-width"></div><!-- /.separator no-border mt135 -->
+
+<div class="separator no-border mb90 full-width"></div><!-- /.separator no-border mb135 -->
+
+<section class="video-box">
+	<div class="container text-center">
+		<h3>Olha como é fácil economizar!</h3>
+
+		<a href="https://www.youtube.com/watch?v=RxpiY0fS4NA" class="video-popup video-btn hvr-pulse"><i class="fa fa-play"></i></a>
+	</div><!-- /.container text-center -->
+</section><!-- /.video-box -->
+
+<div class="separator no-border mt135 full-width"></div><!-- /.separator no-border mt135 -->
+
+<section class="app-secreenshots">
+	<div class="container">
+		<div class="sec-title text-center">
+			<h2>O aplicativo tá show!</h2>
+			<p>Com um design intuitivo e tecnologias atualizadas, desenvolvemos o aplicativo</br> pensando em melhorar a sua experiência ao abastecer, enquanto economiza!</p>
+		</div><!-- /.sec-title -->
+	</div><!-- /.container -->
+	<div class="swiper-slider-area">
+		<div class="container">
+			<div class="row appScreenshotCarousel-container swiper-container">
+				<div class="screen-mobile-image"></div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image:url(img/slider-01.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-02.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-03.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-04.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-02.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-01.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-02.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-03.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-04.png)"></div>
+					<div class="swiper-slide" style="background-image:url(img/slider-02.png)"></div>
+				</div>
+				<!-- Add Arrows -->
+			</div>
+		</div><!-- End container -->
+	</div><!-- End swiper-slider-area -->
+</section><!-- /.app-secreenshots -->
+
+<div class="separator no-border mb115 full-width"></div><!-- /.separator no-border mb135 -->
+
+
+<footer class="footer" id="footer">
+	<div class="subscribe-section">
+		<div class="container">
+			<div class="sec-title text-center">
+				<h2>Baixe agora mesmo!</h2>
+				<p>O egasosa está crescendo. Atualmente, disponível nas cidades:
+                <br/>X, Y e Z no Paraná
+                <br/>A, B, C em São Paulo.</p><br/>
+                <a href="#" class="download-btn">
+						<i class="fab fa-apple"></i>
+						<span class="inner"> <span class="avail">Disponível na</span> <span class="store-name">App Store</span></span>
+					</a>
+					<a href="#" class="download-btn">
+						<i class="fab fa-google-play"></i>
+						<span class="inner"><span class="avail">Disponível no</span> <span class="store-name">Google play</span></span>
+					</a>
+
+			</div><!-- /.sec-title -->
+		</div><!-- /.container -->
+	</div><!-- /.subscribe-section -->
+	<div class="footer-widget-wrapper">
+		<div class="container">
+			<div class="row masonary-layout">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget about-widget">
+						<a href="index.html"><img src="img/logo.png" alt="Awesome Image"/></a>
+						<p>O egasosa transforma o interesse coletivo em economizar em uma poderosa comunidade! </br>Qualquer pessoa pode reduzir consideravelmente seus gastos em combustíveis, através de descontos surpreendentes.</p>
+					</div><!-- /.footer-widget -->
+				</div><!-- /.col-md-3 -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget contact-widget">
+						<div class="title">
+							<h3>Endereço</h3>
+						</div><!-- /.title -->
+						<p><span>Telefone:</span> +1 605 722 2032</p>
+						<p><span>Endereço:</span> Rua xyz, 1234<br /> Londrina-PR</p>
+                        <p><span>E-mail:</span> contato@egasosa.com.br</p>
+					</div><!-- /.footer-widget -->
+				</div><!-- /.col-md-3 -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget links-widget">
+						<div class="title">
+							<h3>Links Úteis</h3>
+						</div><!-- /.title -->
+						<ul class="list-inline link-list">
+                            <li><a href="#">Ajuda</a></li>
+                            <li><a href="#">Contato</a></li>
+						</ul><!-- /.link-list -->
+                        <div class="social">
+							<a href="#" class="fab fa-facebook-f"></a><!--
+							--><a href="#" class="fab fa-twitter"></a><!--
+							--><a href="#" class="fab fa-google-plus-g"></a><!--
+							--><a href="#" class="fab fa-instagram"></a>
+						</div><!-- /.social -->
+					</div><!-- /.footer-widget -->
+				</div><!-- /.col-md-3 -->
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget tweets-widget">
+						<div class="title">
+							<h3>Tweets</h3>
+						</div><!-- /.title -->
+						<div class="tweets-carousel owl-theme owl-carousel">
+							<div class="item">
+								<div class="single-tweet">
+									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
+									<a href="#">@JohnDoe</a>
+								</div><!-- /.single-tweet -->
+							</div><!-- /.item -->
+							<div class="item">
+								<div class="single-tweet">
+									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
+									<a href="#">@JohnDoe</a>
+								</div><!-- /.single-tweet -->
+							</div><!-- /.item -->
+							<div class="item">
+								<div class="single-tweet">
+									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
+									<a href="#">@JohnDoe</a>
+								</div><!-- /.single-tweet -->
+							</div><!-- /.item -->
+							<div class="item">
+								<div class="single-tweet">
+									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
+									<a href="#">@JohnDoe</a>
+								</div><!-- /.single-tweet -->
+							</div><!-- /.item -->
+						</div><!-- /.tweets-carousel -->
+					</div><!-- /.footer-widget -->
+				</div><!-- /.col-md-3 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.footer-widget-wrapper -->
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="pull-left left-content">
+				<p>© 2018, Egasosa Atividades de Internet Ltda <span class="sep">|</span> CNPJ 21.524.611/0001-09 <span class="sep">|</span><a href="#"> Políticas de Privacidade </a> <span class="sep"> | </span> <a href="#"> Termos de Uso </a></p>
+			</div><!-- /.pull-left left-content -->
+			<div class="pull-right right-content">
+				<p>Todos os direitos reservados.</p>
+			</div><!-- /.pull-right -->
+		</div><!-- /.container -->
+	</div><!-- /.footer-bottom -->
+</footer><!-- /.footer -->
+
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-angle-up"></span></div>
+
+<script src="js/jquery.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
