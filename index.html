@@ -29,12 +29,25 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ page.title }} - egasosa">
+    <meta property="og:site_name" content="egasosa.com.br">
+    <meta property="og:image" content="https://egasosa.com.br{% asset_path 'image-social.jpg' %}">
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:description" content="{{ page.description }}">
+
+    <!-- Google Webmaster -->
+    <meta name="google-site-verification" content="">
+
+
+    {% include analytics.html %}
 </head>
 <body>
 
 <div class="preloader"><div class="spinner"></div></div><!-- /.preloader -->
-
-
 
 <header class="header home-page-one">
     <nav class="navbar navbar-default header-navigation stricky">
@@ -73,8 +86,8 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="banner-content">
-					<h3 class="featured-word">É bom pra<br /> <span>todo mundo!</span><br /></h3>
-					<p>Abasteça com descontos incríveis.<br /> É rápido, fácil de usar e você economiza de verdade!</p>
+					<h1 class="featured-word">Abasteça com<br /> <span>descontos incríveis</span><br /></h1>
+					<p>É bom pra todo mundo!<br /> É rápido, fácil de usar e você economiza de verdade!</p>
 					<a href="{{ site.url_app_apple }}" class="download-btn">
 						<i class="fab fa-apple"></i>
 						<span class="inner"> <span class="avail">Disponível na</span> <span class="store-name">App Store</span></span>
@@ -96,7 +109,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 				<div class="single-fun-fact">
-					<p><span class="counter">93000</span><br/>  Downloads</p>
+					<p><span class="counter">93000</span><br/>Clientes</p>
 				</div><!-- /.single-fun-fact -->
 			</div><!-- /.col-md-3 -->
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -315,9 +328,10 @@
 		<div class="container">
 			<div class="sec-title text-center">
 				<h2>Baixe agora mesmo!</h2>
-				<p>O egasosa está crescendo. Atualmente, disponível nas cidades:
-                <br/>X, Y e Z no Paraná
-                <br/>A, B, C em São Paulo.</p><br/>
+				<p>O egasosa está crescendo. Atualmente, disponível em algumas cidades:
+                <br/>Londrina, Maringá e Cambé no Paraná
+                <br/>Campinas, Indaiatuba, Itatiba, Valinhos, Jaguariúna e Paulínea em São Paulo.
+        </p><br/>
           <a href="{{ site.url_app_apple }}" class="download-btn">
 						<i class="fab fa-apple"></i>
 						<span class="inner"> <span class="avail">Disponível na</span> <span class="store-name">App Store</span></span>
@@ -333,70 +347,22 @@
 	<div class="footer-widget-wrapper">
 		<div class="container">
 			<div class="row masonary-layout">
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="footer-widget about-widget">
 						<a href="index.html"><img src="img/logo.png" alt="Awesome Image"/></a>
 						<p>O egasosa transforma o interesse coletivo em economizar em uma poderosa comunidade! </br>Qualquer pessoa pode reduzir consideravelmente seus gastos em combustíveis, através de descontos surpreendentes.</p>
 					</div><!-- /.footer-widget -->
 				</div><!-- /.col-md-3 -->
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="footer-widget contact-widget">
-						<div class="title">
-							<h3>Endereço</h3>
-						</div><!-- /.title -->
-						<p><span>Telefone:</span> +1 605 722 2032</p>
-						<p><span>Endereço:</span> Rua xyz, 1234<br /> Londrina-PR</p>
-                        <p><span>E-mail:</span> contato@egasosa.com.br</p>
-					</div><!-- /.footer-widget -->
-				</div><!-- /.col-md-3 -->
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="footer-widget links-widget">
 						<div class="title">
 							<h3>Links Úteis</h3>
 						</div><!-- /.title -->
 						<ul class="list-inline link-list">
-                            <li><a href="#">Ajuda</a></li>
-                            <li><a href="#">Contato</a></li>
+              <li><a href="{{ site.link_suporte }}">Suporte</a></li>
+              <li><a href="{{ site.link_facebook }}">Facebook</a></li>
+              <li><a href="{{ site.link_instagram }}">Instagram</a></li>
 						</ul><!-- /.link-list -->
-                        <div class="social">
-							<a href="#" class="fab fa-facebook-f"></a><!--
-							--><a href="#" class="fab fa-twitter"></a><!--
-							--><a href="#" class="fab fa-google-plus-g"></a><!--
-							--><a href="#" class="fab fa-instagram"></a>
-						</div><!-- /.social -->
-					</div><!-- /.footer-widget -->
-				</div><!-- /.col-md-3 -->
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="footer-widget tweets-widget">
-						<div class="title">
-							<h3>Tweets</h3>
-						</div><!-- /.title -->
-						<div class="tweets-carousel owl-theme owl-carousel">
-							<div class="item">
-								<div class="single-tweet">
-									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-									<a href="#">@JohnDoe</a>
-								</div><!-- /.single-tweet -->
-							</div><!-- /.item -->
-							<div class="item">
-								<div class="single-tweet">
-									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-									<a href="#">@JohnDoe</a>
-								</div><!-- /.single-tweet -->
-							</div><!-- /.item -->
-							<div class="item">
-								<div class="single-tweet">
-									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-									<a href="#">@JohnDoe</a>
-								</div><!-- /.single-tweet -->
-							</div><!-- /.item -->
-							<div class="item">
-								<div class="single-tweet">
-									<p><i class="fab fa-twitter"></i>Lorem ipsum dolor sit amet, con sectetur adipiscing elit, sed do eius mod tempor incididunt.</p>
-									<a href="#">@JohnDoe</a>
-								</div><!-- /.single-tweet -->
-							</div><!-- /.item -->
-						</div><!-- /.tweets-carousel -->
 					</div><!-- /.footer-widget -->
 				</div><!-- /.col-md-3 -->
 			</div><!-- /.row -->
@@ -405,7 +371,8 @@
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="pull-left left-content">
-				<p>© 2018, Egasosa Atividades de Internet Ltda <span class="sep">|</span> CNPJ 21.524.611/0001-09 <span class="sep">|</span><a href="#"> Políticas de Privacidade </a> <span class="sep"> | </span> <a href="#"> Termos de Uso </a></p>
+				<p>© 2018, Egasosa Atividades de Internet Ltda <span class="sep">|</span> CNPJ 21.524.611/0001-09
+        </p>
 			</div><!-- /.pull-left left-content -->
 			<div class="pull-right right-content">
 				<p>Todos os direitos reservados.</p>

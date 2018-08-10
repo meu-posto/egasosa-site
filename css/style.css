@@ -4,28 +4,28 @@
 ||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ****************************************************************************************************************
-* 1. imported styles 
-* 2. miscelnious styles 
-* 3. header styles 
-* 4. banner styles 
-* 5. fun fact styles 
-* 6. app features styles 
-* 7. features styles 
-* 8. video box styles 
-* 9. pricing styles 
-* 10. intigration styles 
-* 11. blog styles 
-* 12. footer styles 
-* 13. inner banner styles 
-* 14. sidebar styles 
-* 15. testimonials styles 
-* 16. app screenshot styles 
-* 17. how app work styles 
+* 1. imported styles
+* 2. miscelnious styles
+* 3. header styles
+* 4. banner styles
+* 5. fun fact styles
+* 6. app features styles
+* 7. features styles
+* 8. video box styles
+* 9. pricing styles
+* 10. intigration styles
+* 11. blog styles
+* 12. footer styles
+* 13. inner banner styles
+* 14. sidebar styles
+* 15. testimonials styles
+* 16. app screenshot styles
+* 17. how app work styles
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************/
-/************************** 
-* 1. imported styles 
+/**************************
+* 1. imported styles
 ***************************/
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url(bootstrap.min.css);
@@ -47,12 +47,12 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: url(/fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
   src: local('Material Icons'),
     local('MaterialIcons-Regular'),
-    url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
-    url(../fonts/MaterialIcons-Regular.woff) format('woff'),
-    url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+    url(/fonts/MaterialIcons-Regular.woff2) format('woff2'),
+    url(/fonts/MaterialIcons-Regular.woff) format('woff'),
+    url(/fonts/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {
@@ -86,8 +86,8 @@
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
-/************************** 
-* 2. miscelnious styles 
+/**************************
+* 2. miscelnious styles
 ***************************/
 body {
   font-family: 'Varela Round', sans-serif;
@@ -171,7 +171,7 @@ a:active {
 .featured-word span{
     display: inline;
     background-color: #00CC66;
-    color: white; 
+    color: white;
     padding: 8px 8px;
 }
 
@@ -348,8 +348,8 @@ a:active {
     opacity: 0;
   }
 }
-/************************** 
-* 3. header styles 
+/**************************
+* 3. header styles
 ***************************/
 .header {
   position: absolute;
@@ -549,8 +549,8 @@ a:active {
   color: #fff;
 }
 
-/************************** 
-* 4. banner styles 
+/**************************
+* 4. banner styles
 ***************************/
 .banner-static {
   background: #fff url(../img/slider-bg.png) 90% top no-repeat;
@@ -560,14 +560,14 @@ a:active {
 @media (max-width: 1366px) {
   .banner-static {
     background: #fff url(../img/slider-bg.png) center top no-repeat;
-    
+
     background-size: cover;
   }
 }
 .banner-static .banner-content {
   padding-top: 100px;
 }
-.banner-static .banner-content h3 {
+.banner-static .banner-content h1 {
   margin: 0;
   color: #003344;
   font-size: 42px;
@@ -613,8 +613,8 @@ a:active {
   left: 200px;
 }
 
-/************************** 
-* 5. fun fact styles 
+/**************************
+* 5. fun fact styles
 ***************************/
 .fun-fact .single-fun-fact {
   text-align: center;
@@ -645,8 +645,8 @@ a:active {
   margin-bottom: 135px;
 }
 
-/************************** 
-* 6. app features styles 
+/**************************
+* 6. app features styles
 ***************************/
 .app-features {
   padding-bottom: 136px;
@@ -737,8 +737,8 @@ a:active {
   right: 0;
 }
 
-/************************** 
-* 7. features styles 
+/**************************
+* 7. features styles
 ***************************/
 .features-style-one .feature-style-content {
   padding-top: 50px;
@@ -789,8 +789,8 @@ a:active {
           box-shadow: 0px 16px 43px rgba(78, 48, 135, 0.24);
 }
 
-/************************** 
-* 8. video box styles 
+/**************************
+* 8. video box styles
 ***************************/
 .video-box {
   background: #00bbff url(../img/video-bg.png) center center no-repeat fixed;
@@ -846,9 +846,9 @@ a:active {
   background: #00bbff;
 }
 /*deleted pricing styles*/
-/*deleted intigration styles */ 
-/************************** 
-* 11. blog styles 
+/*deleted intigration styles */
+/**************************
+* 11. blog styles
 ***************************/
 .blog-style-one .single-blog-post:hover .img-box img {
   -webkit-transform: scale(1.05);
@@ -1384,8 +1384,8 @@ a:active {
           box-shadow: 0px 18px 37px rgba(0, 0, 0, 0.2);
 }
 
-/************************** 
-* 12. footer styles 
+/**************************
+* 12. footer styles
 ***************************/
 footer.footer {
   background: transparent url(../img/footer-bg.png) center top no-repeat;
@@ -1617,8 +1617,8 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   letter-spacing: .025em;
 }
 
-/************************** 
-* 13. inner banner styles 
+/**************************
+* 13. inner banner styles
 ***************************/
 .inner-banner {
   position: relative;
@@ -1681,8 +1681,8 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   font-size: 16px;
 }
 
-/************************** 
-* 14. sidebar styles 
+/**************************
+* 14. sidebar styles
 ***************************/
 .has-right-sidebar {
   padding-right: 45px;
@@ -1848,8 +1848,8 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   background: #CC3498;
 }
 
-/************************** 
-* 15. testimonials styles 
+/**************************
+* 15. testimonials styles
 ***************************/
 .testimonials-style-one .container {
   max-width: 970px;
@@ -1991,8 +1991,8 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
     display: none;
   }
 }
-/************************** 
-* 16. app screenshot styles 
+/**************************
+* 16. app screenshot styles
 ***************************/
 .app-secreenshots .sec-title {
   margin-bottom: 24px;
@@ -2051,8 +2051,8 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
           box-shadow: -30px 0px 20px rgba(0, 0, 0, 0.18);
 }
 
-/************************** 
-* 17. how app work styles 
+/**************************
+* 17. how app work styles
 ***************************/
 .how-app-work-section .title {
   margin-bottom: 40px;
@@ -2253,7 +2253,7 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   border-radius: 28px;
 
   padding-right: 48px;
-  
+
   margin-right:  24px;
 
   margin-top: 24px;

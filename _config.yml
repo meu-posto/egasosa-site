@@ -24,6 +24,9 @@ github_username:  egasosa
 keywords: economia, combustível, gasolina, etanol, diesel
 url_app_apple: "https://go.egasosa.com/2M1jwND"
 url_app_android: "https://go.egasosa.com/android-egasosa"
+link_suporte: "https://go.egasosa.com/suportezen"
+link_facebook: "https://www.facebook.com/egasosa"
+link_instagram: "https://www.instagram.com/egasosa"
 
 # Build settings
 markdown: kramdown
