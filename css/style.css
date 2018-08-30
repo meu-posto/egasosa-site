@@ -168,13 +168,6 @@ a:active {
   margin-top: 20px;
 }
 
-.featured-word span{
-    display: inline;
-    background-color: #00CC66;
-    color: white;
-    padding: 8px 8px;
-}
-
 .thm-btn {
   display: inline-block;
   border: none;
@@ -575,7 +568,8 @@ a:active {
 }
 .banner-static .banner-content {
   padding-top: 100px;
-}
+}
+
 .banner-static .banner-content h1 {
   margin: 0;
   color: #003344;
@@ -583,7 +577,15 @@ a:active {
   line-height: 60px;
   font-weight: 600;
   margin-bottom: 11px;
-}
+}
+
+.featured-word span{
+    display: inline;
+    background-color: #00CC66;
+    color: white;
+    padding: 5px 13px;
+}
+
 .banner-static .banner-content p {
   margin: 0;
   color: #003344;

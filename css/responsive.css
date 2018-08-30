@@ -176,6 +176,16 @@
     .separator.mb115 {margin-bottom: 80px;}
     .banner-static .banner-moc-box {margin-top: 0px;}
     .banner-static .banner-moc-box > img {left: -120px;float: none !important;margin-left: auto;margin-right: auto;display: block;}
+
+    .banner-static .banner-content h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .featured-word span {
+        margin-top: -10px;
+    }
+
     .how-app-work-section .container img.circled-img {left: 50%; transform: translateX(-50%);}
     .how-app-work-section .how-app-work-content-wrap {margin-top: 80px;}
     .how-app-work-section + .separator.mt135 {margin-top: 80px;}
