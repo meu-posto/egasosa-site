@@ -149,6 +149,11 @@
 @media (max-width: 1024px) {
     img {max-width: 60%;}
     .banner-static .banner-moc-box > img {max-width: none;left: 70%;}
+
+    .banner-static .banner-moc-box > img {
+      display: none !important;
+    }
+
     .features-style-one .feature-style-content h3 br,
     .features-style-one .feature-style-content p br,
     .intigration-section h3 br,
@@ -157,6 +162,17 @@
     footer.footer .footer-widget.contact-widget p br,
     .intigration-section p br {display: none;}
     .fun-fact .single-fun-fact {margin-bottom: 48px;}
+
+    .fun-fact {
+      border-top: 1px solid #E0E0E0;
+      margin-top: -90px;
+      padding-top: 80px;
+    }
+
+    .fun-fact p span {
+      font-size: 36px !important;
+    }
+
     .fun-fact .separator {margin-top: 40px;margin-bottom: 100px;}
     .how-app-work-section .how-app-work-content-wrap {padding-left: 0;}
     .how-app-work-section .download-btn {padding-left: 60px;padding-right: 30px;}
