@@ -558,7 +558,7 @@ a:active {
   background: #fff url(../img/slider-bg.png) 90% top no-repeat;
   padding-top: 180px;
   overflow: hidden;
-}
+}
 @media (max-width: 1366px) {
   .banner-static {
     background: #fff url(../img/slider-bg.png) center top no-repeat;
@@ -626,10 +626,21 @@ a:active {
 
 /**************************
 * 5. fun fact styles
-***************************/
+***************************/
+.fun-fact {
+  text-align: center;
+  margin: 30px 0 60px 0;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 90px 0 80px 0;
+}
+
 .fun-fact .single-fun-fact {
-  text-align: center;
-}
+  text-align: center;
+  display: inline-block;
+  margin: 0 30px;
+}
+
 .fun-fact .single-fun-fact p {
   color: #003344;
   font-size: 18px;
@@ -643,17 +654,6 @@ a:active {
   -webkit-text-fill-color: transparent;
   font-weight: 200;
   font-size: 53px;
-}
-.fun-fact .separator {
-  display: block;
-  width: 100%;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 1px;
-  background: rgba(83, 82, 83, 0.15);
-  margin-top: 70px;
-  margin-bottom: 135px;
 }
 
 /**************************
@@ -1403,8 +1403,8 @@ footer.footer {
   background-size: cover;
 }
 footer.footer .subscribe-section {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 140px;
+  padding-bottom: 60px;
 }
 footer.footer .subscribe-section .sec-title {
   margin-bottom: 96px;
@@ -1490,19 +1490,20 @@ footer.footer .subscribe-section .subscribe-form button[type=submit]:hover span 
   color: #fff;
 }
 footer.footer .footer-widget-wrapper {
-  padding-bottom: 80px;
+  background: #003343;
+  padding: 80px 0;
+  color: #fff;
+  margin-top: -100px;
 }
 footer.footer .footer-widget .title {
   margin-bottom: 40px;
 }
 footer.footer .footer-widget .title h3 {
   margin: 0;
-  color: #006699;
   font-size: 24px;
   font-weight: 600;
 }
 footer.footer .footer-widget p {
-  color: #003344;
   font-size: 14px;
   line-height: 24px;
   margin: 0;
@@ -1522,7 +1523,10 @@ footer.footer .footer-widget .social a:hover {
   background: linear-gradient(to right, #00bbff 0%, #006699 98%, #006699 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}
+footer.footer .footer-widget.about-widget img {
+  width: 150px;
+}
 footer.footer .footer-widget.about-widget p {
   margin-top: 25px;
   margin-bottom: 15px;
@@ -1604,16 +1608,16 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   left: 1px;
 }
 
-.footer-bottom .container {
-  border-top: 1px solid #d2d1d2;
-  padding: 26px 0;
+.footer-bottom {
+  background: #00242f;
+  padding: 20px 0;
+  color: #5e9aad;
 }
 .footer-bottom .left-content p span.sep {
   display: inline-block;
   vertical-align: middle;
 }
 .footer-bottom .left-content p a {
-  color: #00bbff;
   display: inline-block;
   border-bottom: 1px solid #00bbff;
   line-height: 1em;
@@ -1624,7 +1628,6 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   margin: 0;
   font-size: 14px;
   line-height: 26px;
-  color: #003344;
   letter-spacing: .025em;
 }
 
@@ -2073,9 +2076,6 @@ footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next]
   color: #006699;
   font-size: 32px;
   font-weight: 600;
-}
-.how-app-work-section .how-app-work-content-wrap {
-  padding-left: 80px;
 }
 .how-app-work-section .how-app-work-content {
   padding-top: 30px;
