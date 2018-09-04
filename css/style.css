@@ -1394,243 +1394,123 @@ a:active {
   -webkit-box-shadow: 0px 18px 37px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 18px 37px rgba(0, 0, 0, 0.2);
 }
-
+
+
 /**************************
 * 12. footer styles
 ***************************/
-footer.footer {
-  background: transparent url(../img/footer-bg.png) center top no-repeat;
-  background-size: cover;
-}
-footer.footer .subscribe-section {
-  padding-top: 140px;
-  padding-bottom: 60px;
-}
-footer.footer .subscribe-section .sec-title {
-  margin-bottom: 96px;
-}
-footer.footer .subscribe-section .subscribe-form {
-  background: #00bbff;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #00bbff), color-stop(98%, #006699), color-stop(100%, #006699));
-  background: -webkit-gradient(linear, left top, right top, from(#00bbff), color-stop(98%, #006699), to(#006699));
-  background: linear-gradient(to right, #00bbff 0%, #006699 98%, #006699 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bbff', endColorstr='#006699', GradientType=1);
-  border-radius: 60px;
-  padding: 24px 24px;
-  padding-left: 48px;
-  -webkit-box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.2);
-}
-footer.footer .subscribe-section .subscribe-form .left-content {
-  position: relative;
-  padding: 16px 0;
-  padding-left: 64px;
-}
-footer.footer .subscribe-section .subscribe-form i {
 
-  color: #fff;
-  display: inline-block;
-  vertical-align: middle;
-  float: left;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 0;
-}
-footer.footer .subscribe-section .subscribe-form input {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 600;
-  display: inline-block;
-  vertical-align: middle;
-  border-bottom: 1px solid #fff;
-  width: 100%;
-  max-width: 600px;
-  float: left;
-}
-footer.footer .subscribe-section .subscribe-form input::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: #006699;
-}
-footer.footer .subscribe-section .subscribe-form input::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #006699;
-}
-footer.footer .subscribe-section .subscribe-form input:-ms-input-placeholder {
-  /* IE 10+ */
-  color: #006699;
-}
-footer.footer .subscribe-section .subscribe-form input:-moz-placeholder {
-  /* Firefox 18- */
-  color: #006699;
-}
-footer.footer .subscribe-section .subscribe-form button[type=submit] {
-  background: #fff;
-}
-footer.footer .subscribe-section .subscribe-form button[type=submit] span {
-  background: -webkit-gradient(linear, left top, right top, from(#00bbff), color-stop(98%, #006699), to(#006699));
-  background: linear-gradient(to right, #00bbff 0%, #006699 98%, #006699 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-footer.footer .subscribe-section .subscribe-form button[type=submit]:hover {
-  background: #00bbff;
-}
-footer.footer .subscribe-section .subscribe-form button[type=submit]:hover:before {
-  opacity: 0;
-}
-footer.footer .subscribe-section .subscribe-form button[type=submit]:hover span {
-  background: none;
-  background-clip: none;
-  -webkit-text-fill-color: #fff;
-  color: #fff;
-}
-footer.footer .footer-widget-wrapper {
+footer {
   background: #003343;
-  padding: 80px 0;
+  padding: 80px 0 0 0;
   color: #fff;
   margin-top: -100px;
-}
-footer.footer .footer-widget .title {
-  margin-bottom: 40px;
-}
-footer.footer .footer-widget .title h3 {
-  margin: 0;
-  font-size: 24px;
-  font-weight: 600;
-}
-footer.footer .footer-widget p {
-  font-size: 14px;
-  line-height: 24px;
-  margin: 0;
-  font-weight: 500;
-}
-footer.footer .footer-widget .social a {
-  color: #00bbff;
-  font-size: 20px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-}
-footer.footer .footer-widget .social a + a {
-  margin-left: 20px;
-}
-footer.footer .footer-widget .social a:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#00bbff), color-stop(98%, #006699), to(#006699));
-  background: linear-gradient(to right, #00bbff 0%, #006699 98%, #006699 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
-footer.footer .footer-widget.about-widget img {
-  width: 150px;
+
+footer h2 {
+  margin: 0 0 30px 0;
 }
-footer.footer .footer-widget.about-widget p {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-footer.footer .footer-widget.contact-widget p {
-  color: #656565;
-}
-footer.footer .footer-widget.contact-widget p span {
-  color: #003344;
-  font-weight: 500;
-  padding-right: 10px;
-}
-footer.footer .footer-widget.contact-widget p + p {
-  margin-top: 5px;
-}
-footer.footer .footer-widget.links-widget {
-  padding-right: 52px;
-}
-footer.footer .footer-widget.links-widget ul.link-list li a {
-  color: #00bbff;
-  font-size: 14px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  font-weight: 500;
-}
-footer.footer .footer-widget.links-widget ul.link-list li a:hover {
-  color: #006699;
-}
-footer.footer .footer-widget.tweets-widget .single-tweet p {
-  margin: 0;
-  color: #003344;
-  letter-spacing: .01em;
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 5px;
-}
-footer.footer .footer-widget.tweets-widget .single-tweet p i {
-  color: #1692F8;
-  margin-right: 10px;
-}
-footer.footer .footer-widget.tweets-widget .single-tweet > a {
-  color: #00bbff;
-  font-size: 14px;
-  font-style: italic;
-  letter-spacing: .025em;
-}
-footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav {
-  margin-top: 5px;
-  text-align: left;
-}
-footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-] {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 26px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background: #00bbff;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  display: inline-block;
-  vertical-align: middle;
-}
-footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-] i {
-  margin: 0;
-  padding: 0;
-}
-footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #003344;
-}
-footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next] {
-  margin-left: 10px;
-}
-footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-next] i {
-  position: relative;
-  left: 1px;
-}
+
+footer p {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+footer .columns::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer .col-01 {
+  float: left;
+  width: 46%;
+}
+
+footer .col-02 {
+  float: right;
+  width: 46%;
+}
+
+footer img {
+  width: 120px;
+  margin: 0 0 37px 0;
+}
+
+footer ul {
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  font-size: 16px;
+  color: #00bbff;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
 .footer-bottom {
   background: #00242f;
   padding: 20px 0;
+  color: #7abcd1;
+  font-size: 14px;
+  margin-top: 70px;
+}
+
+.right-content {
   color: #5e9aad;
-}
-.footer-bottom .left-content p span.sep {
-  display: inline-block;
-  vertical-align: middle;
-}
-.footer-bottom .left-content p a {
-  display: inline-block;
-  border-bottom: 1px solid #00bbff;
-  line-height: 1em;
-  vertical-align: middle;
-}
-.footer-bottom .right-content p,
-.footer-bottom .left-content p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 26px;
-  letter-spacing: .025em;
-}
-
+}
+
+.footer-bottom em {
+  font-size: 12px;
+  font-style: normal;
+  color: #5e9aad;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media(max-width: 768px) {
+  footer .col-01,
+  footer .col-02 {
+    float: none;
+    width: 100%;
+  }
+
+  .col-01 {
+    margin-bottom: 60px;
+    border-bottom: 2px solid #5e9aad;
+    padding-bottom: 60px;
+  }
+
+  .first-but {
+    margin-top: 30px !important;
+  }
+
+  .footer-bottom {
+    margin-top: 60px;
+  }
+
+  .footer-bottom .pull-right {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    float: none;
+    display: block;
+  }
+}
+
+
 /**************************
 * 13. inner banner styles
 ***************************/
