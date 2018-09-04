@@ -1528,12 +1528,12 @@ footer a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #00bbff;
-  background: -webkit-gradient(left top, right top, color-stop(0%, #00bbff), color-stop(98%, #006699), color-stop(100%, #006699));
-  background: -webkit-gradient(linear, left top, right top, from(#00bbff), color-stop(98%, #006699), to(#006699));
-  background: linear-gradient(to right, #00bbff 0%, #006699 98%, #006699 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bbff', endColorstr='#006699', GradientType=1);
-  opacity: .79;
+  background: #003343;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #003343), color-stop(98%, #003343), color-stop(100%, #006699));
+  background: -webkit-gradient(linear, left top, right top, from(#003343), color-stop(98%, #003343), to(#003343));
+  background: linear-gradient(to right, #003343 0%, #003343 98%, #003343 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003343', endColorstr='#003343', GradientType=1);
+  opacity: .8;
 }
 .inner-banner .container {
   position: relative;
@@ -1544,8 +1544,9 @@ footer a:hover {
   font-weight: 600;
   margin: 0;
 }
-.inner-banner h3 span {
-  color: #000000;
+.inner-banner p {
+  margin: 20px 0 0 0;
+  color: #fff;
 }
 .inner-banner .breadcumb {
   line-height: 1em;
