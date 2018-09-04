@@ -147,13 +147,26 @@
     .header-navigation.stricky-fixed .navbar-toggle:hover .icon-bar {background: #fff;}
 
     .banner-static .banner-content h1 {
-      font-size: 32px;
-      line-height: 50px;
-      margin-top: -100px;
+        font-size: 32px;
+        line-height: 50px;
+        margin-top: -100px;
+    }
+
+    .banner-static .banner-content p {
+      margin-bottom: 40px;
+    }
+
+    .download-btn {
+        margin-bottom: 20px;
+        margin-top: 0;
     }
 
     .banner-moc-box img {
       display: none;
+    }
+
+    .app-secreenshots h2 {
+      margin-top: -50px;
     }
 
     .fun-fact {
@@ -170,6 +183,10 @@
       font-size: 43px;
     }
 
+    .how-app-work-section .single-how-app-work .text-box p  {
+      font-size: 16px;
+    }
+
     .how-app-work-section {
       margin-bottom: -160px;
     }
@@ -177,6 +194,14 @@
     .how-app-work-content-wrap .title {
       margin-top: 80px;
       text-align: center;
+    }
+
+    footer.footer .subscribe-section {
+      margin-top: -120px;
+    }
+
+    footer.footer .subscribe-section p {
+      margin-bottom: 30px;
     }
 
     .links-widget .title {
