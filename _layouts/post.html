@@ -82,10 +82,11 @@
                             <img src="/img/blog-2-1.jpg" alt="Awesome Image"/>
                         </div><!-- /.img-box -->
                         <div class="text-box">
-                            <a href="/{{ post.url }}" class="date">{{ page.date | date: '%B %d, %Y' }}</a>
-                            <a href="/{{ post.url }}"><h3>{{ page.title }}</h3></a>
+                            <a href="/{{ post.url }}" class="date">
+                              {{ page.date | date: '%B %d, %Y' }}
+                            </a>
+                            <h1>{{ page.title }}</h1>
                             {{ page.content }}
-
                             <div class="meta-info">
                                 <a href="/{{ post.url }}">por: {{ post.writer }}</a><!--
                                 --><span class="sep">/</span><!--

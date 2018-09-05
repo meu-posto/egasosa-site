@@ -891,15 +891,8 @@ a:active {
   border-radius: 10px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-}
-.blog-style-one .single-blog-post .text-box h3,
-.blog-style-one .single-blog-post .text-box p,
-.blog-style-one .single-blog-post .text-box ul,
-.blog-style-one .single-blog-post .text-box li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+}
+
 .blog-style-one .single-blog-post .text-box ul.meta-info {
   margin-top: 40px;
   margin-bottom: 15px;
@@ -949,7 +942,7 @@ a:active {
 }
 .blog-style-one .single-blog-post .text-box p {
   color: #003344;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .blog-style-one .single-blog-post .text-box a.read-more {
   background: -webkit-gradient(linear, left top, right top, from(#00bbff), color-stop(98%, #006699), to(#006699));
@@ -958,7 +951,8 @@ a:active {
   -webkit-text-fill-color: transparent;
   font-size: 16px;
   font-weight: 600;
-  display: inline-block;
+  display: inline-block;
+  font-weight: bold;
   margin-bottom: 40px;
 }
 .blog-style-one .single-blog-post .text-box a.read-more i {
@@ -1138,7 +1132,17 @@ a:active {
   padding-left: 40px;
   padding-top: 40px;
   padding-bottom: 100px;
-}
+}
+
+.single-blog-post-style-two p {
+  margin-bottom: 20px !important;
+}
+
+.single-blog-post-style-two ul {
+  margin: -5px 0 20px 30px;
+  padding: 0;
+}
+
 .blog-details-page .single-blog-post-style-two .text-box a {
   color: #0C7FE9;
 }
@@ -1304,8 +1308,7 @@ a:active {
 .blog-details-page .comment-box-wrapper .single-comment-box .text-box {
   padding-left: 20px;
 }
-.blog-details-page .comment-box-wrapper .single-comment-box .text-box h3,
-.blog-details-page .comment-box-wrapper .single-comment-box .text-box p {
+.blog-details-page .comment-box-wrapper .single-comment-box .text-box h3 {
   margin: 0;
 }
 .blog-details-page .comment-box-wrapper .single-comment-box .text-box span.date {
@@ -1325,7 +1328,6 @@ a:active {
   font-size: 16px;
   color: #656565;
   line-height: 28px;
-  margin-top: 15px;
 }
 .blog-details-page .comment-box-wrapper .single-comment-box .text-box a.reply {
   color: #150A33;
