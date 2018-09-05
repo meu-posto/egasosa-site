@@ -66,7 +66,7 @@
 <section class="inner-banner">
     <div class="container text-center">
         <h3>Blog</h3>
-        <p>Novidades e dicas sobre o egasosa</p>
+        <p>{{ page.title }}</p>
     </div><!-- /.container -->
 </section><!-- /.inner-banner -->
 
@@ -118,42 +118,7 @@
                             <li><a href="/#">Biography</a></li>
                         </ul><!-- /.category-list -->
                     </div><!-- /.single-sidebar -->
-                    <div class="single-sidebar recent-post-widget">
-                        <div class="title">
-                            <h3>Recent Post</h3>
-                        </div><!-- /.title -->
-                        <div class="recent-post-list">
-                            <div class="single-recent-post">
-                                <a href="/#"><h3>Everybody’s Life To A Specific Degree In A Way</h3></a>
-                                <a href="/#" class="date">November 6, 2017</a>
-                            </div><!-- /.single-recent-post -->
-                            <div class="single-recent-post">
-                                <a href="/#"><h3>Everybody’s Life To A Specific Degree In A Way</h3></a>
-                                <a href="/#" class="date">November 6, 2017</a>
-                            </div><!-- /.single-recent-post -->
-                            <div class="single-recent-post">
-                                <a href="/#"><h3>Everybody’s Life To A Specific Degree In A Way</h3></a>
-                                <a href="/#" class="date">November 6, 2017</a>
-                            </div><!-- /.single-recent-post -->
-                            <div class="single-recent-post">
-                                <a href="/#"><h3>Everybody’s Life To A Specific Degree In A Way</h3></a>
-                                <a href="/#" class="date">November 6, 2017</a>
-                            </div><!-- /.single-recent-post -->
-                        </div><!-- /.recent-post-list -->
-                    </div><!-- /.single-sidebar -->
-                    <div class="single-sidebar tags-widget">
-                        <div class="title">
-                            <h3>Tags</h3>
-                        </div><!-- /.title -->
-                        <ul class="tags-list">
-                            <li><a href="/#">Business</a></li><!--
-                            --><li><a href="/#">Financial</a></li><!--
-                            --><li><a href="/#">Life</a></li><!--
-                            --><li><a href="/#">Investment</a></li><!--
-                            --><li><a href="/#">Government</a></li><!--
-                            --><li><a href="/#">Joy</a></li>
-                        </ul><!-- /.category-list -->
-                    </div><!-- /.single-sidebar -->
+                    {% include blog/recent-posts.html %}
                 </div><!-- /.sidebar sidebar-right -->
             </div><!-- /.col-md-3 -->
         </div><!-- /.row -->

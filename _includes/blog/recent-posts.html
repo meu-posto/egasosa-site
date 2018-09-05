@@ -1,0 +1,13 @@
+<div class="single-sidebar recent-post-widget">
+    <div class="title">
+        <h3>Posts Recentes</h3>
+    </div><!-- /.title -->
+    <div class="recent-post-list">
+      {% for post in site.posts limit:5 %}
+        <div class="single-recent-post">
+            <a href="#"><h3>{{ post.title }}</h3></a>
+            <a href="#" class="date">{{ post.date | date: '%B %d, %Y' }}</a>
+        </div><!-- /.single-recent-post -->
+      {% endfor %}
+    </div><!-- /.recent-post-list -->
+</div><!-- /.single-sidebar -->
