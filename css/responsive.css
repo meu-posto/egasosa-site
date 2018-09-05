@@ -11,6 +11,13 @@
     .navbar-nav {
         margin: 0;
     }
+
+    .navbar-brand img {
+      width: 120px;
+      margin-top: 7px;
+      float: left;
+    }
+
     .navbar-default .navbar-toggle {
         display: block;
         margin-right: 0;
@@ -197,6 +204,27 @@
     }
 
     .links-widget .title {
+      margin-top: 40px;
+    }
+
+    .inner-banner {
+      padding-top: 120px;
+      padding-bottom: 40px;
+    }
+
+    .single-blog-post-style-two {
+      margin-top: -60px;
+    }
+
+    .has-right-sidebar {
+      padding-right: 0;
+    }
+
+    .single-sidebar  {
+      margin-top: 70px;
+    }
+
+    .blog-style-two .blog-post-pagination {
       margin-top: 40px;
     }
 }
