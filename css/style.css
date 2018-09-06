@@ -621,8 +621,10 @@ a:active {
 }
 .banner-static .banner-moc-box > img {
   position: relative;
-  left: 200px;
-}
+  left: 200px;
+  z-index: 100;
+}
+
 
 /**************************
 * 5. fun fact styles
@@ -2276,3 +2278,9 @@ footer a:hover {
 
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.second-btn {
+  position: absolute;
+  z-index: 300;
+}
