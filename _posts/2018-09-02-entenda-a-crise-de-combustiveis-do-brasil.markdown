@@ -3,7 +3,9 @@ layout: post
 title:  "Entenda a crise dos combustíveis no Brasil"
 ate:   2018-09-02 18:22:55 -0200
 categories: combustível crise caminhoneiros
-writer: Jonas
+writer: Assessoria de Imprensa
+show_image: false
+image: img/blog-2-1.jpg
 ---
 
 Com a paralisação dos caminhoneiros que movimentou o país por cerca de dez dias, os problemas na nova política de preços dos combustíveis ficaram evidentes. Desde julho de 2017, a Petrobras adotou a medida de acompanhar a oscilação internacional dos preços do petróleo e a valorização do dólar, o que levou a um aumento acumulado de 55% no valor dos combustíveis no Brasil.
