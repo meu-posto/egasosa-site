@@ -231,4 +231,13 @@
     .circled-img {
       display: none;
     }
+
+    .screen-mobile-image {
+      display: none;
+    }
+
+    .swiper-slide.swiper-slide-active {
+      border-radius: 0;
+      background-size: 100% 100%;
+    }
 }
