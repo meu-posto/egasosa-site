@@ -227,4 +227,8 @@
     .blog-style-two .blog-post-pagination {
       margin-top: 40px;
     }
+
+    .circled-img {
+      display: none;
+    }
 }

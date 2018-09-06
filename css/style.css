@@ -1879,7 +1879,7 @@ footer a:hover {
 }
 
 .swiper-wrapper {
-  height: 667px;
+  height: 630px;
   width: 320px;
 }
 
@@ -1899,7 +1899,7 @@ footer a:hover {
   height: 667px;
   left: calc(50% + 0.5px);
   position: absolute;
-  top: 24px;
+  top: 5px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 320px;
@@ -2042,13 +2042,13 @@ footer a:hover {
 .how-app-work-section .how-app-work-slider-wrapper {
   position: relative;
   width: 320px;
-  height: 667px;
+  height: 634px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
   -webkit-box-shadow: 0px 18px 37px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 18px 37px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 18px 37px rgba(0, 0, 0, 0.2);
 }
 .how-app-work-section .how-app-work-screen-mobile-image {
   background-image: url(../img/fature-moc.png);
@@ -2062,7 +2062,7 @@ footer a:hover {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 320px;
-  z-index: 2;
+  z-index: 2;
 }
 .how-app-work-section .bx-wrapper {
   border: none;
@@ -2073,10 +2073,11 @@ footer a:hover {
 .how-app-work-section .bx-wrapper .slide-item {
   text-align: center;
 }
-.how-app-work-section .bx-wrapper .slide-item img {
+.how-app-work-section .bx-wrapper .slide-item img {
   margin-left: auto;
   margin-right: auto;
-  border-radius: 48px;
+  border-radius: 48px;
+  border: 15px solid #000;
 }
 .how-app-work-section .pager-item {
   display: block;
