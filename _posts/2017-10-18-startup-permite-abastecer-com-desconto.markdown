@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Combustível mais barato: Startup de Londrina cria app que permite abastecer com desconto"
-ate:   2017-10-18 18:00:00 -0200
+date:   2017-10-18 18:00:00 -0200
 categories: combustivel startup desconto
 writer: Assessoria de Imprensa
 show_image: false

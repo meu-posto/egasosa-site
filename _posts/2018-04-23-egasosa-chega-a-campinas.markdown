@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iniciamos nossas operações em Campinas"
-ate:   2017-12-14 18:00:00 -0200
+date:   2017-12-14 18:00:00 -0200
 categories: combustivel desconto
 writer: Assessoria de Imprensa
 show_image: false
