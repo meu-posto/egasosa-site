@@ -4,7 +4,7 @@ title:  "Entenda a crise dos combustíveis no Brasil"
 date:   2018-09-02 18:22:55 -0200
 categories: combustivel crise caminhoneiros
 writer: Assessoria de Imprensa
-show_image: true
+show_image: false
 image: img/blog-2-1.jpg
 ---
 
