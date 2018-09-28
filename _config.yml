@@ -28,6 +28,7 @@ link_suporte: "https://go.egasosa.com/suportezen"
 link_facebook: "https://www.facebook.com/egasosa"
 link_instagram: "https://www.instagram.com/egasosa"
 
+permalink: pretty
 # Build settings
 markdown: kramdown
 theme: minima
