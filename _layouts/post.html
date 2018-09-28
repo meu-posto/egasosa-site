@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>egasosa - Blog</title>
+    <title>{{ page.title }} - egasosa</title>
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
@@ -30,10 +30,20 @@
 
     {% include trackers/analytics.html %}
     {% include trackers/facebook_pixel.html %}
+
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=1981021115463575&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="preloader"><div class="spinner"></div></div><!-- /.preloader -->
+
+  <div class="preloader"><div class="spinner"></div></div><!-- /.preloader -->
 
 
 
@@ -95,6 +105,8 @@
                             <h1>{{ page.title }}</h1>
                             {{ page.content }}
                             {% include blog/post/meta.html %}
+
+                            <div class="fb-comments" data-href="https://www.egasosa.com.br{{page.url}}" data-numposts="10"></div>
                         </div><!-- /.text-box -->
                     </div><!-- /.single-blog-post-style-two -->
                 </div><!-- /.has-right-sidebar -->
