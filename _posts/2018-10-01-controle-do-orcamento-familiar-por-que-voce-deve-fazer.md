@@ -21,6 +21,8 @@ O primeiro passo para começar a organizar o orçamento é saber exatamente qual
 
 Para que o controle ocorra direitinho, é importante separar as despesas em fixas e variáveis. As **despesas fixas** são aquelas que ocorrem todo mês, como aluguel, escola, seguro do carro, etc. Já as **despesas variáveis**, como o nome diz, variam de acordo com a frequência de consumo ou são gastos que não ocorrem todo mês. Podemos citar como exemplo de despesas variáveis lazer, viagem e roupas.
 
-Esse é um bom começo para economizar de maneira eficiente. Mas é claro que não é só isso, mudanças de atitudes e novos hábitos devem entrar na sua rotina. Temos algumas dicas bem simples que podem ajudar a controlar o seu orçamento e juntar a graninha pra comprar aquilo que você tanto deseja. Quer saber quais são? Clique abaixo e confira!
+Esse é um bom começo para economizar de maneira eficiente. Mas é claro que não é só isso, mudanças de atitudes e novos hábitos devem entrar na sua rotina. 
+
+Temos um checklist que pode ajudar você a descobrir se tem o controle do seu orçamento familiar. Queremos te ajudar a juntar uma graninha e comprar aquilo que você tanto deseja. Quer saber se você é bom nisso? Clique abaixo e confira!
 
 [![baixar](/img/blog/botao-5-dicas.png)](http://conteudo.egasosa.com.br/economia-familiar)
