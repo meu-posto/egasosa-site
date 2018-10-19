@@ -164,7 +164,7 @@
     }
 
     .download-btn {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         margin-top: 0;
     }
 
@@ -175,6 +175,8 @@
     .app-secreenshots h2 {
       margin-top: -50px;
     }
+
+    .app-secreenshots .swiper-slider-area { display: none; }
 
     .fun-fact {
       padding: 70px 0 30px 0;
