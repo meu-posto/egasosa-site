@@ -11,7 +11,7 @@ ruby '2.5.1'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 3.7.3'
+gem 'jekyll', '~> 3.8.5'
 # gem 'jekyll-assets', '2.4.0'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima', '~> 2.0'
@@ -23,8 +23,8 @@ gem 'rack-jekyll', '0.5.0'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'github-pages', '192'
-  gem "jekyll-feed", "~> 0.10.0"
+  gem 'github-pages', '201'
+  gem "jekyll-feed", "~> 0.11.0"
   gem "jekyll-assets"
 end
 
