@@ -19,6 +19,4 @@ jobs:
       - deploy:
           command: bash .circleci/setup-heroku-production.sh
       - deploy:
-          command: git push heroku master
-      - deploy:
-          command: heroku restart --app egasosa-site
+          command: echo "done"

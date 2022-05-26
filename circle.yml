@@ -2,7 +2,7 @@ deployment:
   production:
     branch: master
     commands:
-      - git push git@heroku.com:egasosa-site.git $CIRCLE_SHA1:refs/heads/master
+      - echo "done"
 
 test:
   override:
