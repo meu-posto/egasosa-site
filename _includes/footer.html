@@ -5,8 +5,10 @@
         <a href="/">
           <img src="/img/logo-2.png" alt="egasosa">
         </a>
-        <p>O egasosa transforma o interesse coletivo em economizar em uma poderosa comunidade!<p>
-        <p>Qualquer pessoa pode reduzir consideravelmente seus gastos em combustíveis, através de descontos surpreendentes.</p>
+        <p>O egasosa transforma o interesse coletivo em economizar em uma poderosa comunidade!
+        <p>
+        <p>Qualquer pessoa pode reduzir consideravelmente seus gastos em combustíveis, através de descontos
+          surpreendentes.</p>
         <ul class="link-list">
           <li><a href="/{{ site.link_suporte }}">Suporte</a></li>
           <li><a href="/{{ site.link_facebook }}">Facebook</a></li>
@@ -23,22 +25,27 @@
         </a>
         <a href="{{ site.url_app_android }}" class="download-btn">
           <i class="fab fa-google-play"></i>
-          <span class="inner"><span class="avail">Disponível no</span> <span class="store-name">Google play</span></span>
+          <span class="inner"><span class="avail">Disponível no</span> <span class="store-name">Google
+              play</span></span>
         </a>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
-		<div class="container">
-			<div class="pull-left left-content">
-				<p>
-          &copy; 2021 Egasosa Atividades de Internet Ltda<br>
+    <div class="container">
+      <div class="pull-left left-content">
+        <p>
+          <!-- &copy; 2021 Egasosa Atividades de Internet Ltda<br> -->
+          &copy; <span id="ano-atual"></span> Egasosa Atividades de Internet Ltda<br>
           <em>CNPJ 21.524.611/0001-09</em>
         </p>
-			</div><!-- /.pull-left left-content -->
-			<div class="pull-right right-content">
-				<p>Todos os direitos reservados.</p>
-			</div><!-- /.pull-right -->
-		</div><!-- /container -->
-	</div>
+      </div><!-- /.pull-left left-content -->
+      <div class="pull-right right-content">
+        <p>Todos os direitos reservados.</p>
+      </div><!-- /.pull-right -->
+    </div><!-- /container -->
+  </div>
 </footer>
+<script>
+  document.getElementById("ano-atual").textContent = new Date().getFullYear();
+</script>
